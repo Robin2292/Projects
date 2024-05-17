@@ -65,11 +65,12 @@ To clone this repository or switch to any other branches, use command below:
   ```sh
   git clone https://github.com/yourusername/your-repository.git
   cd your-repository
-
+  ```
 
 2. **Switch Repository**
   ```sh
   git checkout <branch_name>
+  ```
 
 # Contact
 If you have any questions, please contact zky1306961939@gmail.com
