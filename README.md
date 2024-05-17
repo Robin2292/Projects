@@ -48,7 +48,7 @@ Welcome to my GitHub repository! This repository contains multiple projects, eac
   ```sh
   git checkout pacman
 
-  ### 6. Flashcard Learning Webpage for Lara Platform
+### 6. Flashcard Learning Webpage for Lara Platform
 **Branch**: lara_flashcard_learning
 
 - **Description**: This project is a flashcard learning tool developed using Agile methodologies for the Lara platform.
