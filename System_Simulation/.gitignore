@@ -1,0 +1,4 @@
+allocate
+*.o
+.vscode
+cases/
