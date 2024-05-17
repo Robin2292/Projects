@@ -1,0 +1,76 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Item</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Set body height to viewport height */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Vertical centering */
+            align-items: center; /* Horizontal centering */
+            background: linear-gradient(to bottom right, #f2e9e4, #dfe7fd); /* Use a yellowish to light blue gradient background */
+            line-height: 1.5; /* Increase line spacing */
+        }
+
+        h2 {
+            color: #FF91A4; 
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 30px; /* Increase interval */
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80%; /* Set the width of the form */
+        }
+
+        label {
+            font-size: 1.5em; /* Increase font size */
+            margin-bottom: 20px; /* Increase interval */
+        }
+
+        input[type="text"] {
+            font-size: 1.2em; /* Increase font size */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 20px; /* Increase interval */
+            width: 100%; /* Width 100% */
+        }
+
+        input[type="submit"] {
+            font-size: 1.2em; /* Increase font size */
+            background-color: #FF91A4; /* Pink background */
+            color: white; /* White text */
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s; /* Transitional effects */
+        }
+
+        input[type="submit"]:hover {
+            background-color: #FF7090; /* Dark pink background on hover */
+        }
+    </style>
+</head>
+<body>
+    <h2>Remove Item</h2>
+
+    <form action="/remove_item" method="post">
+        <label for="remove_input">
+            Please input the card front you'd like to remove:
+        </label>
+        <input type="text" id="remove_input" name="remove">
+        <input type="submit" value="Remove">
+    </form>
+</body>
+</html>

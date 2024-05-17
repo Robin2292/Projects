@@ -1,0 +1,8 @@
+question,answer,choices,file_type,file_name
+What is the currency of Japan?,Yen,Yen;Dollar;Euro;Pound,,
+aaacc,bbb,cc;bbb;dd;ee,,
+aaa111,bbb,bbb;cc;dd;ee,,
+aaa555,bbb,cc;dd;ee;bbb,,
+aaa666,bbb,cc;dd;ee;bbb,,
+What is the capital of France?,Paris,Beijing;Paris;London;Tayko,,
+test question with photo,aa,aa;aa;bb;cc,png,blog.png
