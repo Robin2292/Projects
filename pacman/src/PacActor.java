@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-public class PacActor extends Actor implements GGKeyRepeatListener
+public class                               PacActor extends Actor implements GGKeyRepeatListener
 {
   private static final int nbSprites = 4;
   private int idSprite = 0;
