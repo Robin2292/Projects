@@ -10,8 +10,7 @@ time. A monster determines a next location to which it will move based on a give
 Each type of monsters has the following walking approach.
 Monster Name Walking Approach
 * Troll
-Random Walker: Troll will randomly turn left or right (i.e., -90 or
-+90 from the current direction). If it hits the maze wall, it will turn
+Random Walker: Troll will randomly turn left or right. If it hits the maze wall, it will turn
 back to the original direction and go forward or turn the other side.
 Otherwise, go backward.
 * T-X5
