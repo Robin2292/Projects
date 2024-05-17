@@ -30,16 +30,7 @@ Welcome to my GitHub repository! This repository contains multiple projects, eac
   ```sh
   git checkout book_rating_prediction
 
-### 4. Java Games
-**Branch**: java_games
-
-- **Description**: This branch contains multiple Java games, including Pac-Man and a maze escape game inspired by Stranger Things.
-- **Technologies**: Java
-- **How to Access**:
-  ```sh
-  git checkout java_games
-
-### 5. System Simulation in C
+### 4. System Simulation in C
 **Branch**: system_simulation_in_c
 
 - **Description**: This project simulates CPU scheduling algorithms using linked lists and virtual memory paging in C.
@@ -48,11 +39,39 @@ Welcome to my GitHub repository! This repository contains multiple projects, eac
   ```sh
   git checkout system_simulation_in_c
 
-### 7. Flashcard Learning Webpage for Lara Platform
+### 5. Pacman
+**Branch**: pacman
+
+- **Description**: This project contains pacman game
+- **Technologies**: Java
+- **How to Access**:
+  ```sh
+  git checkout pacman
+
+  ### 6. Flashcard Learning Webpage for Lara Platform
 **Branch**: lara_flashcard_learning
 
 - **Description**: This project is a flashcard learning tool developed using Agile methodologies for the Lara platform.
-- **Technologies**: HTML, CSS, JavaScript, Node.js, Express, MongoDB
-- *How to Access**:
+- **Technologies**: HTML, CSS, JavaScript, Django
+- **How to Access**:
   ```sh
   git checkout lara_flashcard_learning
+
+Cloning and Accessing Branches
+To clone this repository or switch to any other branches, use command below:
+
+
+1. **Clone Repository**:
+  ```sh
+    git clone https://github.com/yourusername/your-repository.git
+    cd your-repository
+
+
+2. **Switch Repository**
+    ```sh
+    git checkout <branch_name>
+
+# Contact
+If you have any questions, please contact zky1306961939@gmail.com
+
+Thanks for visiting my repository!
